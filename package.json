@@ -1,0 +1,26 @@
+{
+  "name": "template-cli",
+  "version": "0.0.1",
+  "description": "Simple app for generating files from templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "templates",
+    "scaffold"
+  ],
+  "author": "tszafr",
+  "license": "ISC",
+  "dependencies": {
+    "array-uniq": "^2.0.0",
+    "commander": "^2.16.0",
+    "editer": "^0.4.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.2",
+    "utils": "^0.3.1"
+  }
+}

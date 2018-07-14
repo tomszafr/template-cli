@@ -1,0 +1,9 @@
+{
+  "flow": [
+    {
+      "task": "interpolate",
+      "template": "task.js",
+      "target": "./tasks/[name].js"
+    }
+  ]
+}

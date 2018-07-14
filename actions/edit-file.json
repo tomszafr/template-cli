@@ -1,0 +1,25 @@
+{
+  "flow": [
+    {
+      "task": "text-edit",
+      "target": "./file.txt",
+      "flow": [
+        [
+          "insertBefore",
+          "TrXtWA",
+          "<%= name %>Karatekid",
+          true
+        ],
+        [
+          "insertAfter",
+          "--------WAGAS-------",
+          "To nowa <%= name %> tego nie da się podbić"
+        ],
+        [
+          "append",
+          "\nKoniec."
+        ]
+      ]
+    }
+  ]
+}
