@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Simple app for generating files from templates",
   "main": "index.js",
+  "bin": {
+    "template-cli": "./index.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -14,13 +17,20 @@
   "license": "ISC",
   "dependencies": {
     "array-uniq": "^2.0.0",
+    "chalk": "^2.4.1",
     "commander": "^2.16.0",
     "editer": "^0.4.0",
+    "esm": "^3.0.71",
     "fs": "0.0.1-security",
     "lodash": "^4.17.10",
     "path": "^0.12.7",
     "prompt": "^1.0.0",
     "shelljs": "^0.8.2",
     "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
   }
 }

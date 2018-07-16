@@ -1,0 +1,30 @@
+{
+  "flow": [
+    {
+      "task": "text-edit",
+      "target": "./test.txt",
+      "flow": [
+        [
+          "insert",
+          "<%= name %>",
+          {
+            "before": {
+              "regex": "React"
+            },
+            "asNewLine": true
+          }
+        ],
+        [
+          "insert",
+          "Woah, <%= name %>.",
+          {
+            "after": {
+              "regex": "<%= clas %>"
+            },
+            "asNewLine": true
+          }
+        ]
+      ]
+    }
+  ]
+}
